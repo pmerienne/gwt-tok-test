@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:HorizontalPanel>
+			<g:Button ui:field="connectButton" text="Connect to : " />
+			<g:TextBox ui:field="sessionId" value="1_MX4xMjMyMDgxfn4yMDExLTEwLTEwIDEzOjQ1OjA3LjA1MTEyNSswMDowMH4wLjY1ODk0ODUzNzI0OH4" width="800px" />
+		</g:HorizontalPanel>
+		<g:Label ui:field="connectionStatus" />
+	</g:HTMLPanel>
+</ui:UiBinder> 

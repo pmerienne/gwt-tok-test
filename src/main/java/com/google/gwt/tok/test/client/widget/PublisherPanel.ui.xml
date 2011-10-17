@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<h2>Publisher</h2>
+	
+		<g:HorizontalPanel>
+			<g:VerticalPanel>
+				<g:Label>Width : </g:Label>
+				<g:TextBox ui:field="width" value="264" enabled="false" />
+				<g:Label>Height : </g:Label>
+				<g:TextBox ui:field="height" value="198" enabled="false" />
+				<g:Label>Microphone gain (0 - 100) : </g:Label>
+				<g:TextBox ui:field="microphoneGain" value="50" enabled="false" />
+				
+				<g:HorizontalPanel>
+					<g:Label>Mirror : </g:Label>
+					<g:CheckBox ui:field="mirror" value="true" enabled="false" />
+					<g:Label>Publish audio : </g:Label>
+					<g:CheckBox ui:field="publishAudio" value="true" enabled="false" />
+					<g:Label>Publish video : </g:Label>
+					<g:CheckBox ui:field="publishVideo" value="true" enabled="false" />
+				</g:HorizontalPanel>
+				
+				<g:Button ui:field="publishButton" text="Publish" enabled="false" />
+			</g:VerticalPanel>
+
+			<g:HTMLPanel>
+				<div ui:field="publisherDiv"/>
+			</g:HTMLPanel>
+		</g:HorizontalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

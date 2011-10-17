@@ -1,0 +1,25 @@
+.gwt-DecoratorPanel {
+    table-layout: fixed;
+}
+.gwt-DecoratorPanel .topLeft,
+.gwt-DecoratorPanel .topRight {
+    width: 5px;
+}
+
+.niceInput {
+	background-clip: padding-box;
+	border-radius: 0.6em 0.6em 0.6em 0.6em;
+	background: -moz-linear-gradient(center top , #FFFFFF, #F0F0F0) repeat scroll 0 0 #F0F0F0;
+	border: 1px solid #B3B3B3;
+	color: #333333;
+	text-shadow: 0 1px 0 #FFFFFF;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	padding: 0.4em;
+}
+
+.niceInput:focus {
+	box-shadow: 0 0 12px #387BBE;
+	outline-width: 0;
+}
